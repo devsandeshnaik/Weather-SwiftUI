@@ -17,8 +17,6 @@ struct SearchBar: View {
     @State private var isEditing = false
     var body: some View {
         ZStack {
-            
-            
             RoundedRectangle(cornerRadius: 8, style: .continuous)
                 .fill(Color(.systemGray5))
         

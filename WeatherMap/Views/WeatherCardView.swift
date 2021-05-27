@@ -40,11 +40,7 @@ struct WeatherCardView: View {
             }
         }
         .background(
-            Illustrations.weatherCellBackgrounds.randomElement()!
-                .resizable()
-                .scaledToFill()
-                .clipped()
-                .overlay(Color.black.opacity(0.20))
+            Color.red
         )
         .cornerRadius(12)
     }
